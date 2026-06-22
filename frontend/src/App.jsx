@@ -45,12 +45,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home cart={cart} />} />
-        <Route
-          path="/menu"
-          element={<Menu addToCart={addToCart} cart={cart} />}
-        />
-        <Route
-          path="/cart"
+        <Route path="/menu" element={<Menu addToCart={addToCart} cart={cart} />}/>
+        <Route path="/cart"
           element={
             <Cart
               cart={cart}
