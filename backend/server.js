@@ -10,6 +10,7 @@ mongoose
     console.log(err);
   });
   
+
 const app= express();
 const bookings = [];
 
